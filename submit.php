@@ -1,9 +1,9 @@
 <?php
 
-$server_name = "localhost";
-$user_name = "root";
-$password = "Nabin&dangi320";
-$database = "wpt";
+$server_name = "your_server_name";
+$user_name = "your_user_name";
+$password = "your_password";
+$database = "your_databse";
 
 
 
