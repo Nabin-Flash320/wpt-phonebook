@@ -1,0 +1,119 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background: #D3D8E8;
+}
+
+.vew_main_division{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 17%;
+  width: 1000px;
+}
+
+
+.vew_caption_list{
+  list-style: none;
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+
+.caption{
+  color: green;
+  margin-right: 70px;
+  margin-left: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+.sn_span{
+  left: auto;
+}
+
+.name_span{
+  left: 90px;
+}
+
+.phone_number_span{
+  left: 285px;
+}
+
+.address_span{
+  left: 505px;
+}
+
+.operation_span{
+  left: 750px;
+}
+
+.data_vew_division{
+  margin-top: 55px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+
+.vew_added_list{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.vew_list_division{
+  display: flex;
+}
+
+.data_span_sn{
+  margin-left: 20px;
+  width: 5%;
+}
+
+.data_span_name{
+  margin-left: 10px;
+  width: 20%;
+}
+
+
+.data_span_phone_number{
+  margin-left: 20px;
+  width: 20%;
+}
+
+.data_span_address{
+  margin-left: 20px;
+  width: 20%;
+}
+
+.edit_delete_buttons{
+  display: flex;
+  margin-right: 20px;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.remove_button{
+  width: 50%;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 6px;
+  background-color:#084B8A;
+  cursor: pointer;
+  border:1px solid #08298A;
+  color: white;
+}
+
+.edit_button{
+  width: 50%;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 6px;
+  background-color:#084B8A;
+  cursor: pointer;
+  /* border:1px solid #08298A; */
+  color: white;
+  margin-left: 10px;
+}
